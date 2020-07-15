@@ -1,0 +1,128 @@
+/*remove the white break between header/section/aside&footer*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*design the header*/
+header{
+/*change the background*/
+  height: 100%;
+  width: 100%;
+  background-color: #FCB1A6;
+/*change the text*/
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5D2A42;
+}
+
+/*design the main*/
+main{
+  height: 100%;
+  width: 100%;
+  background-color: #FFF9EC;
+}
+
+/*design the article*/
+article{
+  height: 100%;
+  width: 100%;
+  background-color: #FFF9EC;
+
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5D2A42;
+}
+
+/*design the section*/
+section{
+  height: 100%;
+  width: 100%;
+  background-color: #FFF9EC;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+/*design the aside*/
+aside{
+  height: 100%;
+  width: 100%;
+  background-color: #bfd3c1;
+
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5D2A42;
+}
+
+/*design the footer*/
+footer{
+  height: 100%;
+  width: 100%;
+  background-color: #bfd3c1;
+
+  font-size: 12px;
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*add extra space between h1*/
+h1{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*add extra space between h2*/
+h2{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*add extra space between h3*/
+h3{
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*add extra space between h4*/
+h4{
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+/*add extra space between h5*/
+h5{
+  padding-top: 20px;
+}
+
+/*add extra space between p*/
+p{
+  padding-bottom: 20px;
+  padding-top:10px;
+}
+
+/*create a text box*/
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
+
+/*change the position of the image*/
+img {
+  padding-bottom: 20px;
+  padding-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*styled-link*/
+a:link    { color: red; }
+a:visited { color: blue; }
+a:hover   { color: red; }
+a:active  { color: #5D2A42; }
