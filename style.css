@@ -7,8 +7,6 @@
 /*design the header*/
 header{
 /*change the background*/
-  height: 100%;
-  width: 100%;
   background-color: #FCB1A6;
 /*change the text*/
   font-size: 36px;
@@ -46,8 +44,6 @@ section{
 
 /*design the aside*/
 aside{
-  height: 100%;
-  width: 100%;
   background-color: #bfd3c1;
 
   font-size: 20px;
@@ -58,8 +54,6 @@ aside{
 
 /*design the footer*/
 footer{
-  height: 100%;
-  width: 100%;
   background-color: #bfd3c1;
 
   font-size: 12px;
